@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Name from './Name';
+import GuestList from './GuestList';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Name name="Runqiu"></Name>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <GuestList></GuestList>
       </header>
     </div>
   );
